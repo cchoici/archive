@@ -1,0 +1,13 @@
+Comparing Flow with TypeScript
+https://medium.com/the-web-tub/comparing-flow-with-typescript-6a8ff7fd4cbb
+
+The ability to retain JavaScript “purity”.
+
+In conclusion, when developing large scale web applications, 
+having a static type checker can help safeguard your program,
+as well as helping you to eliminate existing errors.
+Compared to TypeScript,
+Flow can easily be integrated into existing projects and should fit in without causing disruptions to the JavaScript build process.
+If TypeScript just isn’t your cup of tea, but you would still like to improve the robustness of your code,
+then go on and give Flow a shot!
+//====================================================================================//
