@@ -1,0 +1,4 @@
+﻿Why not store the user data closer to all our app’s source files?
+Storing user data in the operating system’s designated location for user’s app data is the idiomatic way for native app’s to persist user data because:
+1. when we auto-update the app, our source files may get moved or delete
+2. changing or adding to an app’s internal files will invalidate the code signature

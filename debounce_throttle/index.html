@@ -1,0 +1,32 @@
+<html>
+<header>
+<title>demo</title>
+</header>
+<style>
+  body { padding: 0; margin: 0;  font-family: Arial;}
+  #moveonme {
+    position: absolute;
+    height: 100%; width: 200px; background: #eee;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #paintonme {
+    margin-left: 250px;
+  }
+</style>
+<body>
+<div id="moveonme">
+    <p>move your mouse here</p>
+</div>
+<canvas id="paintonme" height="500" width="500"></canvas>
+<script src="./debounce.js"></script>
+<script src="./throttle.js"></script>
+<script src="./demo.js"></script>
+<script type="module">
+  var demo = new NIM_demo();
+  demo.init();
+</script>
+</body>
+</html>
